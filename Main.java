@@ -18,7 +18,7 @@ public class Main {
         ps.callInterceptors(c1, true);
 
         Debitcard d2 = new Debitcard("Adam", 42742819, 5.01);
-        Customer c2 = new Customer("Sean", d2);
+        Customer c2 = new Customer("Adam", d2);
         Rental r3 = new Rental(m2, 8);
         c2.addRental(r3);
 
